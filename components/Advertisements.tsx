@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import RunningText from "./RunningText";
 
 const Advertisements = () => {
   return (
@@ -30,6 +31,7 @@ const Advertisements = () => {
         height={306}
         className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
       /> */}
+      <RunningText text="Special Offer: 50% off on all products! 🎉 Don't miss out! Special Offer: 50% off on all products! 🎉 Don't miss out!" />
     </aside>
   );
 };
