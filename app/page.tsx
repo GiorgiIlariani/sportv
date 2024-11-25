@@ -34,8 +34,9 @@ async function Home({
         )}
       </div>
 
-      <div className="flex items-center justify-center w-full absolute bottom-2">
-        <p>2024 - ყველა უფლება დაცულია</p>
+      <div className="flex items-center justify-center w-full absolute bottom-2 flex-col gap-2">
+        <p>2025 - დაცულია ყველა უფლება</p>
+        <p className="text-xl">15+</p>
       </div>
     </div>
   );
