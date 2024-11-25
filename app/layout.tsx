@@ -31,9 +31,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col md:flex-row`}
       >
-        {/* <div className="w-full items-center justify-center hidden md:flex">
-          
-        </div> */}
         <LeftSidebar />
         <div className="w-full py-[50px] px-5 md:px-[50px]">
           <div className=" max-w-[1200px] mx-auto flex flex-row gap-4 md:gap-[30px] min-h-screen">
