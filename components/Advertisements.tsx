@@ -9,13 +9,13 @@ const Advertisements = () => {
         ავრცელებს იმ ინფორმაციას, რომელიც საჯაროდ ისედაც ხელმისაწვდომია.
       </p>
 
-      <Image
+      {/* <Image
         src="/images/advertisement1.jpg"
         alt="advertisement"
         width={306}
         height={306}
         className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
-      />
+      /> */}
       <Image
         src="/images/advertisement2.jpg"
         alt="advertisement"
@@ -23,13 +23,13 @@ const Advertisements = () => {
         height={306}
         className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
       />
-      <Image
+      {/* <Image
         src="/images/advertisement3.jpg"
         alt="advertisement"
         width={306}
         height={306}
         className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
-      />
+      /> */}
     </aside>
   );
 };

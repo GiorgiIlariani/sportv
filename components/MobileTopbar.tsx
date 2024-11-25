@@ -35,13 +35,13 @@ const MobileTopbar = () => {
             </p>
 
             <div className="flex justify-between flex-wrap">
-              <Image
+              {/* <Image
                 src="/images/advertisement1.jpg"
                 alt="advertisement"
                 width={306}
                 height={306}
                 className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
-              />
+              /> */}
               <Image
                 src="/images/advertisement2.jpg"
                 alt="advertisement"
@@ -49,13 +49,13 @@ const MobileTopbar = () => {
                 height={306}
                 className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
               />
-              <Image
+              {/* <Image
                 src="/images/advertisement3.jpg"
                 alt="advertisement"
                 width={306}
                 height={306}
                 className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
-              />
+              /> */}
             </div>
           </div>
         </SheetContent>

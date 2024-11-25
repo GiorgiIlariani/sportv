@@ -1,5 +1,9 @@
 export const leftSidebarConstants = [
   {
+    title: "მთავარი",
+    route: "/",
+  },
+  {
     title: "ვიდეო",
     route: "/video",
   },
