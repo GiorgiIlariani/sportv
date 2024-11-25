@@ -17,8 +17,8 @@ async function Home({
   );
 
   return (
-    <div className="w-full border-r pr-[30px] relative">
-      <div className="w-full flex items-center justify-between border-b pb-6">
+    <div className="w-full border-none md:border-r pr-[30px] relative">
+      <div className="w-full flex items-center justify-between gap-2 border-b pb-6">
         <SearchComponent query={query} />
 
         <Time />

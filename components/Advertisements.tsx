@@ -3,7 +3,7 @@ import React from "react";
 
 const Advertisements = () => {
   return (
-    <aside className="flex flex-col gap-4 w-[300px]">
+    <aside className="flex-col gap-4 w-auto lg:w-[300px] hidden md:flex">
       <p>
         საიტი Livetv.ge არ აწარმოებს რაიმე სახის ტრანსლაციას. ეს საიტი უბრალოდ
         ავრცელებს იმ ინფორმაციას, რომელიც საჯაროდ ისედაც ხელმისაწვდომია.
@@ -14,21 +14,21 @@ const Advertisements = () => {
         alt="advertisement"
         width={306}
         height={306}
-        className="w-[306px] h-[306px] object-contain"
+        className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
       />
       <Image
         src="/images/advertisement2.jpg"
         alt="advertisement"
         width={306}
         height={306}
-        className="w-[306px] h-[306px] object-contain"
+        className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
       />
       <Image
         src="/images/advertisement3.jpg"
         alt="advertisement"
         width={306}
         height={306}
-        className="w-[306px] h-[306px] object-contain"
+        className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
       />
     </aside>
   );
