@@ -28,11 +28,11 @@ const MobileTopbar = () => {
           <NavItems />
 
           <div>
-            <p>
+            {/* <p>
               საიტი Livetv.ge არ აწარმოებს რაიმე სახის ტრანსლაციას. ეს საიტი
               უბრალოდ ავრცელებს იმ ინფორმაციას, რომელიც საჯაროდ ისედაც
               ხელმისაწვდომია.
-            </p>
+            </p> */}
 
             <div className="flex justify-between flex-wrap">
               {/* <Image
@@ -42,13 +42,13 @@ const MobileTopbar = () => {
                 height={306}
                 className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
               /> */}
-              <Image
+              {/* <Image
                 src="/images/advertisement2.jpg"
                 alt="advertisement"
                 width={306}
                 height={306}
                 className="lg:w-[306px] lg:h-[306px] w-[170px] h-[200px] object-contain"
-              />
+              /> */}
               {/* <Image
                 src="/images/advertisement3.jpg"
                 alt="advertisement"
