@@ -24,6 +24,7 @@ const LeftSidebar = () => {
           {leftSidebarConstants.map((item) => (
             <Link
               href={item.route}
+              key={item.route}
               className="text-white font-medium text-base hover:text-blue-400 transition"
             >
               {item.title}

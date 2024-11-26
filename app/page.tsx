@@ -17,7 +17,7 @@ async function Home({
   );
 
   return (
-    <div className="w-full border-none md:border-r pr-[30px]">
+    <div className="w-full border-none md:border-r pr-[30px] relative">
       <div className="w-full flex items-center justify-between gap-2 border-b pb-6">
         <SearchComponent query={query} />
 
@@ -32,6 +32,11 @@ async function Home({
         ) : (
           <p>No matches found</p>
         )}
+      </div>
+
+      <div className="flex md:hidden items-center justify-center w-full absolute bottom-1 flex-col gap-2">
+        <p className="text-sm font-medium">2025 - დაცულია ყველა უფლება</p>
+        <p className="text-sm font-medium">15+</p>
       </div>
     </div>
   );
