@@ -10,7 +10,7 @@ const LeftSidebar = () => {
       <div className="w-full items-center justify-center flex">
         <MobileTopbar />
       </div>
-      <div className="w-[300px] py-[30px] h-full  md:min-h-screen bg-black hidden md:block">
+      <div className="w-[300px] py-[30px] h-full  md:min-h-screen bg-black hidden md:block relative">
         <Link href="/">
           <Image
             src="/images/sportv.png"
@@ -29,6 +29,10 @@ const LeftSidebar = () => {
               {item.title}
             </Link>
           ))}
+        </div>
+        <div className="flex items-center justify-center absolute bottom-2 w-full flex-col gap-2 text-white">
+          <p>©️ 2025 ყველა უფლება დაცულია</p>
+          <p className="text-xl">15+</p>
         </div>
       </div>
     </div>

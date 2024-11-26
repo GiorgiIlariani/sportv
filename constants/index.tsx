@@ -23,6 +23,10 @@ export const leftSidebarConstants = [
     title: "კონტაქტი",
     route: "/contact",
   },
+  {
+    title: "რეკლამა",
+    route: "/advertisement",
+  },
 ];
 
 import { CiBaseball } from "react-icons/ci";
